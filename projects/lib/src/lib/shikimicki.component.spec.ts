@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LibComponent } from './lib.component';
+import { ShikimickiComponent } from './shikimicki.component';
 
 describe('LibComponent', () => {
-  let component: LibComponent;
-  let fixture: ComponentFixture<LibComponent>;
+  let component: ShikimickiComponent;
+  let fixture: ComponentFixture<ShikimickiComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [LibComponent]
+      imports: [ShikimickiComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(LibComponent);
+    fixture = TestBed.createComponent(ShikimickiComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
